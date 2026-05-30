@@ -495,7 +495,7 @@ export default function App() {
             </p>
             
             <button 
-              onClick={() => window.open('https://wa.me/919876543210?text=Hi%20PIXEL%20Melts,%20I%20have%20a%20custom%20STL%20file%20for%20printing!', '_blank')}
+              onClick={() => window.open('https://wa.me/917090290497?text=Hi%20PIXEL%20Melts,%20I%20have%20a%20custom%20STL%20file%20for%20printing!', '_blank')}
               className="bg-gray-900 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#f47b20] transition-colors shadow-xl shadow-gray-900/20"
             >
               Request Custom Print

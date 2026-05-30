@@ -43,7 +43,7 @@ const PRODUCTS = [
     image: 'slug.jpeg'
   },
   {
-    id: 'p3',
+    id: 'p4',
     name: 'Iron Man',
     desc: 'I think we don\'t need a description for this superhero',
     price: 399,
@@ -448,7 +448,7 @@ export default function App() {
     setIsCartOpen(false);
     
     // Show a success alert (using standard browser behavior for this interaction flow, or just open window)
-    window.open(`https://wa.me/917080280497?text=${message}`, '_blank');
+    window.open(`https://wa.me/917090280497?text=${message}`, '_blank');
   };
 
   return (
@@ -495,7 +495,7 @@ export default function App() {
             </p>
             
             <button 
-              onClick={() => window.open('https://wa.me/917090290497?text=Hi%20PIXEL%20Melts,%20I%20have%20a%20custom%20STL%20file%20for%20printing!', '_blank')}
+              onClick={() => window.open('https://wa.me/917090280497?text=Hi%20PIXEL%20Melts,%20I%20have%20a%20custom%20STL%20file%20for%20printing!', '_blank')}
               className="bg-gray-900 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#f47b20] transition-colors shadow-xl shadow-gray-900/20"
             >
               Request Custom Print

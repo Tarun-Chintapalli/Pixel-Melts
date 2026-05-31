@@ -49,6 +49,14 @@ const PRODUCTS = [
     price: 399,
     personalized: true,
     image: 'ironman.jpeg'
+  },
+  {
+    id: 'p5',
+    name: 'Baby R.E.P.O robot keychain',
+    desc: 'With a clickable keyboard switch to drive away your anxiety',
+    price: 149,
+    personalized: true,
+    image: 'click_baby.jpeg'
   }
 ];
 

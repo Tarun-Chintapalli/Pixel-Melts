@@ -56,7 +56,7 @@ const PRODUCTS = [
     desc: 'With a clickable keyboard switch to drive away your anxiety',
     price: 149,
     personalized: true,
-    image: 'click_baby.jpeg'
+    image: 'keychain.gif'
   }
 ];
 

@@ -23,7 +23,10 @@ export default defineConfig([
       },
     },
     rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      // Allow capitalized component names and the framer-motion `motion`
+      // binding, which is used via JSX member expressions (motion.div) that
+      // the base no-unused-vars rule does not detect.
+      'no-unused-vars': ['error', { varsIgnorePattern: '^(motion|[A-Z_])' }],
     },
   },
 ])
